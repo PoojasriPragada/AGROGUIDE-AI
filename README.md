@@ -24,7 +24,9 @@
 ## 📂 Project Structure
 ```text
 Agro-Guide-AI/
-├── main.py              # FastAPI application & API routes
-├── model.pkl            # Trained ML model (Pickle file)
-├── requirements.txt     # Project dependencies             
-└── index.html           # HTML templates (index.html)
+├── Crop_recommendation.csv                   # Kaggle Dataset
+├── crop_model.pkl                            # Trained ML model (Pickle file)
+├──index.html                                 # HTML templates (index.html)
+├── main.py                                   # FastAPI application & API routes
+├── requirements.txt                          # Project dependencies             
+└── train_model.py                            # Training ML model
